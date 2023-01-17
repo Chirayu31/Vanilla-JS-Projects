@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    background-color: rgb(165, 42, 42);
+    font-family: 'KoHo', sans-serif;
+}
+
+.color_block{
+    background-color: rgb(36, 35, 35);
+    color:white;
+    font-size:40px;
+    padding: 20px;
+    min-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.color{
+    color:rgb(104, 195, 231);
+}
+
+.button_block{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0);
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.btn:active{
+    transform: translateY(2px);
+}
